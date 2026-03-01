@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F1E8;
+    font-family: "Albert Sans", sans-serif;
+}
+
+section.grid-con {
+    margin: 25px auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "GFS Didot", serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Utility Classes */
+
+.hidden {
+    display: none;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+   position: absolute !important; 
+   width: 1px !important; 
+   height: 1px !important; 
+   padding: 0 !important; 
+   margin: -1px !important; 
+   overflow: hidden !important; 
+   clip-path: inset(50%); 
+   white-space: nowrap !important; 
+   border: 0 !important; 
+}
+
+.center-text {
+    text-align: center;
+}
+
+.brand-red {
+    color: #800020;
+}
+
+.brand-mocha {
+  color: #6B5B4C;
+}
+
+/*Box Class is Used to layout elements in grid - would be removed once content is added*/
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100px;
+    background-color: rgb(221, 219, 219);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+}
+
