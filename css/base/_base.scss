@@ -50,6 +50,10 @@ img {
   color: #6B5B4C;
 }
 
+.pos-relative {
+    position: relative;
+}
+
 /*Box Class is Used to layout elements in grid - would be removed once content is added*/
 .box {
     display: flex;
