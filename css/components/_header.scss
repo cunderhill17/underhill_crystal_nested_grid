@@ -1,0 +1,59 @@
+header {
+
+    #main-nav {
+        display: none;
+        justify-content: center;
+        align-items: center;
+
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+            padding: 0px;
+            list-style-type: none;
+
+            a {
+                text-decoration: none;
+            }
+        }
+
+        @media screen and (min-width: 1200px) {
+            display: flex;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        #hamburger-menu {
+            order: 3;
+        }
+
+        #cart {
+            order: 2;
+        }
+
+        #logo {
+            order: 1;
+        }
+
+        #main-nav {
+            order: 4;
+        }
+
+    }
+
+    @media screen and (min-width: 1200px) {
+        #hamburger-menu {
+            display: none;
+            order: 4;
+        }
+
+        #main-nav {
+            order: 2;
+        }
+
+        #cart {
+            order: 3;
+        }
+    }
+}
