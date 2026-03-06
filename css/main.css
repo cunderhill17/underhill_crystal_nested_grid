@@ -111,6 +111,9 @@ img {
   }
 }
 #nested-hero-grid .call-to-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #800020;
   border-radius: 10px;
   border: none;
@@ -119,6 +122,8 @@ img {
   margin-top: 40px;
 }
 #nested-hero-grid .call-to-action a {
+  padding: 0px;
+  margin: 0px;
   text-decoration: none;
   font-size: 14px;
   color: #F5F1E8;
