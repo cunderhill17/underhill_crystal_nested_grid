@@ -67,6 +67,54 @@ img {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
 }
 
+header #main-nav {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+header #main-nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 0px;
+  list-style-type: none;
+}
+header #main-nav ul a {
+  text-decoration: none;
+}
+@media screen and (min-width: 1200px) {
+  header #main-nav {
+    display: flex;
+  }
+}
+@media screen and (min-width: 768px) {
+  header #hamburger-menu {
+    order: 3;
+  }
+  header #cart {
+    order: 2;
+  }
+  header #logo {
+    order: 1;
+  }
+  header #main-nav {
+    order: 4;
+  }
+}
+@media screen and (min-width: 1200px) {
+  header #hamburger-menu {
+    display: none;
+    order: 4;
+  }
+  header #main-nav {
+    order: 2;
+  }
+  header #cart {
+    order: 3;
+  }
+}
+
 #hero-image {
   justify-self: center;
   grid-row: 1;
