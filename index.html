@@ -10,6 +10,28 @@
     
         <h1 class="visually-hidden">Nested Grid Layout Example</h1>
 
+        <header class="grid-con">
+            <div id="hamburger-menu" class="box col-span-1 md:col-start-8 md:col-end-9">
+                <p>Hamburger menu</p>
+            </div>
+            <div id="cart" class="box col-start-4 col-end-5 md:col-start-7 md:col-end-8">
+                <p>Cart</p>
+            </div>
+            <div id="logo" class="box col-span-full md:col-span-4 lg:col-span-4">
+                <p>Logo</p>
+            </div>
+
+            <nav id="main-nav" class="lg:col-start-4 lg:col-end-12">
+                <h2 class="visually-hidden">Main Navigation</h2>
+                <ul>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </nav>
+        </header>
+
         <!-- Hero Section -->
         <div class="full-width-grid-con pos-relative">
             <img class="col-span-full" id="hero-image"
