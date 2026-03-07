@@ -82,11 +82,24 @@ header #main-nav ul {
 }
 header #main-nav ul a {
   text-decoration: none;
+  color: #6B5B4C;
+}
+header #main-nav ul a:hover {
+  color: #800020;
 }
 @media screen and (min-width: 1200px) {
   header #main-nav {
     display: flex;
   }
+}
+header #hamburger-menu, header #logo, header #cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+}
+header #hamburger-menu img, header #cart img {
+  max-width: 40px;
 }
 @media screen and (min-width: 768px) {
   header #hamburger-menu {

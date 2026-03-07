@@ -15,12 +15,36 @@ header {
 
             a {
                 text-decoration: none;
+                color: #6B5B4C;
+
+                &:hover {
+                    color: #800020;
+                }
             }
         }
 
         @media screen and (min-width: 1200px) {
             display: flex;
         }
+
+    }
+
+    #hamburger-menu, #logo, #cart {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0px;
+
+    }
+
+
+
+    #hamburger-menu, #cart {
+        
+        img {
+           max-width: 40px; 
+        }
+        
     }
 
     @media screen and (min-width: 768px) {
